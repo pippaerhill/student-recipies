@@ -6,12 +6,12 @@
  * {box-sizing: border-box}
  /* Three image containers (use 25% for four, and 50% for two, etc) */
  /* Opacity #1 */
- .grid-container {
+ .grid-container { object-fit: cover;
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
    grid-gap: 1em;
  }
- img {
+ img { object-fit: cover;
   width: 100%;
   height: auto;
 }
